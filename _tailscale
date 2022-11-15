@@ -43,9 +43,15 @@ _1st_arguments=(
     'up:Up connects your device to Tailscale'
     'down:Down disconnects your device from Tailscale'
     'file:Access and make files available to Taildrop'
+    'cert:Generate certificate and key files on the host for HTTPS certificates in the network'
     'ip:IP returns a device’s Tailscale IP address'
     'logout:Log out disconnects from Tailscale, expires current login'
     'netcheck:Netcheck provides a report on your current physical network conditions'
+    'ping:Ping tries to ping another device exclusively over Tailscale'
+    'status:Status shows the status of your connections to other Tailscale devices'
+    'web:Web starts a webserver for controlling the tailscaled daemon'
+    'bugreport:Bugreport prints a random identifier into diagnostic logs'
+    'version:Version prints the installed version of Tailscale'
 )
 
 local expl
