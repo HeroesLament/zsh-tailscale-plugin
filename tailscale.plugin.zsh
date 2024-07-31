@@ -11,4 +11,4 @@ if [[ ! -f "$ZSH_CACHE_DIR/completions/_tailscale" ]]; then
   _comps[tailscale]=_tailscale
 fi
 
-tailscale completion --shell zsh >| "$ZSH_CACHE_DIR/completions/_tailscale" &|
+tailscale completion zsh >| "$ZSH_CACHE_DIR/completions/_tailscale" &|
